@@ -16,3 +16,6 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+
+## Screenshoot
+Screenshoot available at `screenshoots` directory
