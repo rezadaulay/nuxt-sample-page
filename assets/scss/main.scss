@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+// Bootstrap and BootstrapVue SCSS files
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+// General style overrides and custom classes
+@import 'theme';

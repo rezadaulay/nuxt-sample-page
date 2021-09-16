@@ -1,0 +1,108 @@
+#desktop-footer {
+    @media (max-width: 991.98px) {
+        display: none;
+    }
+    .desktop-footer__wrapper {
+        background: #F9FFF7;
+        border-radius: 20px;
+        padding: 4.625rem 3.875rem;
+    }
+    h5 {
+        margin-bottom: 2.37500rem;
+    }
+    p {
+        color: $light;
+    }
+    .desktop-footer__logo {
+        width: 207px;
+        margin-bottom: 1rem;
+    }
+    .desktop-footer__address {
+        color: $light;
+    }
+    .desktop-footer__contact-icon {
+        a {
+            width: 40px;
+            height: 40px;
+            background: #fff;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8px;
+            &:last-child {
+                margin-right: 0px;
+            }
+            &:hover {
+                background: #8BAC3E;
+                svg {
+                    path {
+                        stroke: #fff;
+                    }
+                }
+            }
+            svg {
+                max-height: 15px;
+                max-width: 15px;
+                path {
+                    stroke: #8BAC3E;
+                }
+            }
+        }
+    }
+    .desktop-footer__links-list {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        li {
+            margin-bottom: 19px;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+            a {
+                color: $light;
+                &:hover {
+                    color: $body-color;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .desktop-footer__newsletter {
+        input {
+            border-radius: 8px 0px 0px 8px;
+        }
+        .btn {
+            border-radius: 0px 8px 8px 0px;
+        }
+    }
+    .desktop-footer__contacts {
+        img {
+            width: 18px;
+            vertical-align: middle;
+        }
+    }
+}
+#mobile-footer {
+    border-top: 1px solid #F8F8F8;
+    display: none;
+    @media (max-width: 991.98px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a {
+        width: calc(100% / 3);
+        display: block;
+        padding: 15px 0;
+        font-size: 14px;
+        color: $light;
+        img {
+            width: 39px;
+        }
+        span {
+            width: 100%;
+            display: block;
+            margin-top: 5px;
+        }
+    }
+}

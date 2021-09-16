@@ -1,0 +1,47 @@
+#header {
+    @media (max-width: 991.98px) {
+        background-color: #fff;
+        border-bottom: 1px solid #b1aeae;
+        margin-bottom: 3rem !important;
+    }
+    padding-top: 0.5rem;
+    .navbar {
+        background: transparent !important;
+        .navbar-brand {
+            img {
+                max-width: 207px;
+            }
+        }
+        .navbar-nav {
+            align-items: center;
+            .promotions {
+                a {
+                    position: relative;
+                    .badge {
+                        font-size: 8px;
+                        width: 36px;
+                        height: 19px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        line-height: normal;
+                        position: absolute;
+                        top: -8px;
+                        right: 0px;
+                    }
+                }
+            }
+            .signup {
+                a {
+                    padding: 0.625rem 1.125rem !important;
+                    background: $primary;
+                    color: $white;
+                    border-radius: $border-radius;
+                    &:hover {
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+    }
+}
